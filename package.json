@@ -1,0 +1,20 @@
+{
+  "name": "mywebsite",
+  "version": "1.0.0",
+  "description": "Website about how avi and shay suck at warzone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Warzone",
+    "Shay",
+    "Avi"
+  ],
+  "author": "Sahaj",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nedb": "^1.8.0"
+  }
+}

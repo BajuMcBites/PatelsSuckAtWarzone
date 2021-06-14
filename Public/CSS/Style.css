@@ -1,0 +1,152 @@
+body {
+    background-color: rgb(231, 231, 231);
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+
+}
+
+#tt1 {
+    position: relative;
+
+    text-align: center;
+    padding:40px;
+    background-color: coral;
+    border:0px;
+    margin: 0px;
+    color:white;
+}
+
+
+.button:hover{
+    color:grey;
+}
+
+.block{
+    float:left;
+    width:40%;
+    margin-left:5%;
+    margin-right: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+#DandP>p{
+    font-size: 2em;
+    text-align: center;
+    margin-top:7%;
+}
+
+.clr{
+    clear:both;
+}
+
+@media(max-width:1200px){
+
+    .block{
+        float:none;
+        margin-left: 30%;
+    }
+}
+
+@media(max-width:600px){
+
+    .block{
+        float:none;
+        margin-left: 0px;
+        width:100%
+    }
+}
+
+#Headder{
+    font-size: 18px;
+    color:white;
+    margin:10px;
+}
+.popcorn{
+    margin-top: 10px;
+    width:40%
+}
+
+#Navbar{
+    position:fixed;
+    top:0;
+    margin:0px;
+    border:0px;
+    width:100%;
+    height:40px;
+    background-color:coral;
+}
+
+#List123{
+    float: right;
+    margin-right:50px;
+    border:0px;
+    padding:0px;
+    display: inline;
+    list-style-type: none;
+}
+.button{
+    float: right;
+    margin-right:30px;
+    border:0px;
+    padding:0px;
+    font-size: 18px;
+    border:0px;
+    background: none;
+    color:white;
+
+}
+
+.person{
+    margin:60px;
+    border: 5px solid coral;
+}
+
+.group{
+    float:left;
+    margin-bottom: 30px;
+    width:40%;
+    height:40%
+    
+    
+
+}
+
+#gtext{
+    margin:5%;
+    font-size: 18px;
+    text-align: center;
+}
+
+.personTitle{
+    text-align: center;
+}
+
+#bottom{
+    margin:500px;
+}
+
+.input{   
+    display: flex;
+    align-items: center;
+}
+
+#form{
+    margin:30px;
+}
+
+.input>p{
+    margin-right:10px;
+}
+#content{
+    resize: none;
+}
+
+.comment{
+    margin:5%;
+    border:5px;
+    border-color: rgb(175, 126, 108);
+    border-style: solid;
+    padding:2%;
+}
